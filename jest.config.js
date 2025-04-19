@@ -8,7 +8,7 @@ module.exports = {
     testMatch: ['<rootDir>/src/**/*.test.js'],
     testEnvironment: 'node',
     clearMocks: true,
-    presets: 'ts-jest',
+    preset: 'ts-jest',
     moduleNameMapper: {
         '@src/(.*)': '<rootDir>/src/$1',
         '@test/(.*)': '<rootDir>/test/$1',
